@@ -1,95 +1,193 @@
-# 🚀 SkyCrack - WiFi Security Assessment Tool
+# ⚡ SkyCrack
 
-![SkyCrack Logo](imageku_20260428_112556.png)
+> Advanced WiFi Security Assessment Framework for Authorized Penetration Testing
 
-**A professional WiFi network security testing tool for authorized penetration testing and security assessments.**
+<p align="center">
+  <img src="imageku_20260428_112556.png" width="100%"/>
+</p>
 
-![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
-![License](https://img.shields.io/badge/License-Educational%20Only-red.svg)
-![Platform](https://img.shields.io/badge/Platform-Linux-green.svg)
-
----
-
-## ⚠️ Legal Disclaimer
-
-> **IMPORTANT**  
-> This tool is designed for **educational purposes and authorized security testing only**.
-
-- ✅ Only use on networks you own or have explicit written permission to test  
-- ❌ Unauthorized access to computer networks is illegal in most jurisdictions  
-- ⚠️ The author assumes no liability for misuse of this tool  
-- 📜 Always comply with local laws and regulations  
+<p align="center">
+  <b>Automated • Powerful • Minimal • Offensive Security Tooling</b>
+</p>
 
 ---
 
-## 📋 Table of Contents
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.6%2B-blue">
+  <img src="https://img.shields.io/badge/Platform-Linux-green">
+  <img src="https://img.shields.io/badge/License-Educational-red">
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen">
+</p>
 
-- [✨ Features](#-features)
-- [🔧 Requirements](#-requirements)
-- [⚙️ Installation](#️-installation)
-- [▶️ Usage](#️-usage)
-- [🧠 How It Works](#-how-it-works)
-- [🛠 Troubleshooting](#-troubleshooting)
-- [🤝 Contributing](#-contributing)
-- [📜 Legal Notice](#-legal-notice)
+---
+
+## ⚠️ Disclaimer
+
+> This tool is intended strictly for **authorized security testing and educational use only**.
+
+- You **must** have permission before testing any network  
+- Unauthorized access is illegal  
+- The developer is **not responsible** for misuse  
+- Use responsibly and ethically  
+
+---
+
+## 🧠 Overview
+
+**SkyCrack** is a lightweight yet powerful WiFi penetration testing framework designed to automate the full attack chain:
+
+- Interface detection  
+- Monitor mode setup  
+- Network reconnaissance  
+- Client targeting  
+- Handshake capture  
+- Password auditing  
 
 ---
 
 ## ✨ Features
 
-- 🔍 **Automated WiFi Interface Detection**  
-  Automatically identifies available wireless interfaces  
-
-- 📡 **Monitor Mode Setup**  
-  Configures monitor mode with automatic interference handling  
-
-- 🌐 **Network Scanning**  
-  Scans and displays nearby WiFi networks  
-
-- 👥 **Client Discovery**  
-  Identifies connected clients with signal strength analysis  
-
-- 🤝 **Handshake Capture**  
-  Captures WPA/WPA2 handshake packets  
-
-- ⚡ **Multi-Method Deauth Attack**  
-  Uses multiple deauthentication techniques  
-
-- 🔓 **Password Cracking**  
-  Integrates with `aircrack-ng` for password cracking  
-
-- 🧹 **Automatic Cleanup**  
-  Restores network settings after testing  
+- ⚡ Fully automated workflow  
+- 📡 Smart wireless interface detection  
+- 🔍 High-speed network scanning  
+- 👥 Client identification & targeting  
+- 🤝 WPA/WPA2 handshake capture  
+- 💣 Multi-vector deauthentication engine  
+- 🔓 Integrated password cracking (aircrack-ng)  
+- 🧹 Auto cleanup & restore system state  
 
 ---
 
-## 🔧 Requirements
+## 🧰 Requirements
 
-### 💻 System Requirements
+### System
 
-- **Operating System**: Linux (Kali Linux, Ubuntu, Parrot OS recommended)  
-- **Python Version**: 3.6 or higher  
-- **Privileges**: Root access required  
-- **WiFi Adapter**: Must support monitor mode & packet injection  
+- Linux (Kali, Parrot, Ubuntu recommended)  
+- Python 3.6+  
+- Root privileges  
+- Compatible WiFi adapter (monitor mode + injection)  
 
 ---
 
-### 🧰 Required Tools
+### Dependencies
 
-Make sure the following tools are installed:
-
-- `aircrack-ng` (includes `airodump-ng`, `aireplay-ng`, `aircrack-ng`)  
-- `airmon-ng`  
-- `iwconfig`  
-- `ip`  
+```bash
+sudo apt update
+sudo apt install aircrack-ng wireless-tools
+```
 
 ---
 
 ## ⚙️ Installation
 
-### 🐧 Ubuntu / Debian / Kali Linux
+```bash
+git clone https://github.com/yourusername/skycrack.git
+cd skycrack
+chmod +x skycrack.py
+```
+
+---
+
+## 🚀 Usage
 
 ```bash
-sudo apt-get update
-sudo apt-get install aircrack-ng
-sudo apt-get install wordlists
+sudo ./skycrack.py
+```
+
+or
+
+```bash
+chmod +x skycrack.py && sudo ./skycrack.py
+```
+
+---
+
+## ⚔️ Attack Workflow
+
+```
+[ Interface Detection ]
+          ↓
+[ Monitor Mode Enabled ]
+          ↓
+[ Network Scanning ]
+          ↓
+[ Target Selection ]
+          ↓
+[ Client Discovery ]
+          ↓
+[ Deauthentication ]
+          ↓
+[ Handshake Capture ]
+          ↓
+[ Password Cracking ]
+```
+
+---
+
+## 🛠 Troubleshooting
+
+**Interface not found**
+```bash
+ip link show
+```
+
+**Monitor mode issues**
+```bash
+sudo airmon-ng check kill
+```
+
+**No handshake captured**
+- Move closer to target  
+- Increase deauth packets  
+- Ensure active clients  
+
+---
+
+## 📁 Project Structure
+
+```
+skycrack/
+│── skycrack.py
+│── README.md
+│── skycrack.png
+│── imageku_20260428_112556.png
+│── wordlists/
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+
+```
+# Fork → Clone → Create branch → Commit → Push → PR
+```
+
+---
+
+## 📜 Legal Notice
+
+This project is provided for:
+
+- Security research  
+- Educational purposes  
+- Authorized penetration testing  
+
+Any misuse is the responsibility of the end user.
+
+---
+
+## ⭐ Support
+
+If this project helped you:
+
+⭐ Star the repo  
+🍴 Fork it  
+🧠 Share knowledge  
+
+---
+
+<p align="center">
+  <b>“Hack responsibly. Secure the future.”</b>
+</p>
