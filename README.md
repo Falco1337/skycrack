@@ -1,6 +1,6 @@
 # 🚀 SkyCrack - WiFi Security Assessment Tool
 
-![SkyCrack Logo](skycrack.png)
+![SkyCrack Logo](imageku_20260428_112556.png)
 
 **A professional WiFi network security testing tool for authorized penetration testing and security assessments.**
 
