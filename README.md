@@ -1,4 +1,4 @@
-# SkyNet WiFi Security Testing Tool
+# Skycrack Wifi Security
 
 Advanced WiFi security assessment tool for authorized penetration testing and network security auditing.
 
