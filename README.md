@@ -156,16 +156,6 @@ skycrack/
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome.
-
-```
-# Fork → Clone → Create branch → Commit → Push → PR
-```
-
----
-
 ## 📜 Legal Notice
 
 This project is provided for:
