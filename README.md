@@ -135,16 +135,6 @@ Any misuse is the responsibility of the end user.
 
 ---
 
-## ⭐ Support
-
-If this project helped you:
-
-⭐ Star the repo  
-🍴 Fork it  
-🧠 Share knowledge  
-
----
-
 <p align="center">
   <b>“Don't break systems, Break signals.”</b>
 </p>
