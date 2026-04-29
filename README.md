@@ -53,7 +53,7 @@
 - 👥 Client identification & targeting  
 - 🤝 WPA/WPA2 handshake capture  
 - 💣 Multi-vector deauthentication engine  
-- 🔓 Integrated password cracking (aircrack-ng)  
+- 🔓 Integrated password cracking 
 - 🧹 Auto cleanup & restore system state  
 
 ---
@@ -89,6 +89,11 @@ or
 
 ```bash
 chmod +x skycrack.py && sudo ./skycrack.py
+```
+or
+
+```bash
+python3 skycrack.py
 ```
 
 ---
