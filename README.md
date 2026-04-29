@@ -72,7 +72,7 @@
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/skycrack.git
+git clone https://github.com/Falco1337/skycrack.git
 cd skycrack
 chmod +x skycrack.py
 ```
