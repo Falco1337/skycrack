@@ -3,7 +3,7 @@
 > Advanced WiFi Security Assessment Framework for Authorized Penetration Testing
 
 <p align="center">
-  <img src="imageku_20260428_112556.png" width="100%"/>
+  <img src="skycrack.png" width="100%"/>
 </p>
 
 <p align="center">
