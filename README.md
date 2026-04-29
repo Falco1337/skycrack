@@ -69,15 +69,6 @@
 
 ---
 
-### Dependencies
-
-```bash
-sudo apt update
-sudo apt install aircrack-ng wireless-tools
-```
-
----
-
 ## ⚙️ Installation
 
 ```bash
@@ -124,35 +115,11 @@ chmod +x skycrack.py && sudo ./skycrack.py
 
 ---
 
-## 🛠 Troubleshooting
-
-**Interface not found**
-```bash
-ip link show
-```
-
-**Monitor mode issues**
-```bash
-sudo airmon-ng check kill
-```
-
 **No handshake captured**
 - Move closer to target  
 - Increase deauth packets  
-- Ensure active clients  
-
----
-
-## 📁 Project Structure
-
-```
-skycrack/
-│── skycrack.py
-│── README.md
-│── skycrack.png
-│── imageku_20260428_112556.png
-│── wordlists/
-```
+- Ensure active clients
+- Choose peak hours  
 
 ---
 
@@ -179,5 +146,5 @@ If this project helped you:
 ---
 
 <p align="center">
-  <b>“Hack responsibly. Secure the future.”</b>
+  <b>“Don't break systems, Break signals.”</b>
 </p>
